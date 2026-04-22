@@ -12,7 +12,7 @@ const apiKey = "AIzaSyAr2gaTDuIV-8i2pED3a-Ngk0JVbBwuBUE"; // API key will be pro
 
 	// Generic Gemini Call
 	async function askGemini(prompt, systemInstruction = "", isVision = false, base64Image = null) {
-		const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+		const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
 
 		let parts = [{ text: prompt }];
 		if (isVision && base64Image) {
