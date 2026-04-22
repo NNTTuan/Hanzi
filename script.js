@@ -1,5 +1,5 @@
 
-const apiKey = "AIzaSyD0YzYCdNKgHevZpuEPjfC_ElTTtMqJrIk"; // API key will be provided by environment
+const apiKey = "AIzaSyAr2gaTDuIV-8i2pED3a-Ngk0JVbBwuBUE"; // API key will be provided by environment
 
 	// Navigation
 	function showPage(pageId) {
